@@ -1,6 +1,6 @@
 {
   "name": "@cycli/utils",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "chenying <fun20001016@163.com>",
   "homepage": "",
@@ -19,5 +19,5 @@
   "scripts": {
     "test": "node ./__tests__/utils.test.js"
   },
-  "gitHead": "c9f81b1f1887fc6d6f85b7afb84190edcfe95a64"
+  "gitHead": "2287f0888603c4616b9a82a252956f10822f9907"
 }
