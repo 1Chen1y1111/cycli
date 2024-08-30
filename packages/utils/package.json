@@ -1,11 +1,11 @@
 {
   "name": "@cycli/utils",
   "version": "1.0.0",
-  "description": "cycli utils",
+  "description": "> TODO: description",
   "author": "chenying <fun20001016@163.com>",
   "homepage": "https://github.com/1Chen1y1111/cycli#readme",
   "license": "ISC",
-  "main": "lib/index.js",
+  "main": "lib/utils.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
