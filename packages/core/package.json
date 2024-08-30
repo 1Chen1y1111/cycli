@@ -6,6 +6,9 @@
   "homepage": "https://github.com/1Chen1y1111/cycli#readme",
   "license": "ISC",
   "main": "lib/core.js",
+  "bin": {
+    "cy": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -25,5 +28,6 @@
   },
   "bugs": {
     "url": "https://github.com/1Chen1y1111/cycli/issues"
-  }
+  },
+  "gitHead": "c3e62e25956738dafc3d628a0772c76d1d7272b5"
 }
