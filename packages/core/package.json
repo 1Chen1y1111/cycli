@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "cycli core",
   "author": "chenying <fun20001016@163.com>",
-  "homepage": "https://github.com/1Chen1y1111/cycli#readme",
+  "homepage": "",
   "license": "ISC",
   "main": "lib/core.js",
   "bin": {
@@ -19,15 +19,8 @@
   "publishConfig": {
     "registry": "https://registry.npmmirror.com"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/1Chen1y1111/cycli.git"
-  },
   "scripts": {
     "test": "node ./__tests__/core.test.js"
   },
-  "bugs": {
-    "url": "https://github.com/1Chen1y1111/cycli/issues"
-  },
-  "gitHead": "c3e62e25956738dafc3d628a0772c76d1d7272b5"
+  "gitHead": "2057c06f8f66e558ebe9b5bd2faaff9ba31d7c9b"
 }
