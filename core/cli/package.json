@@ -25,5 +25,9 @@
   },
   "devDependencies": {
     "@cycli/log": "file:../../utils/log"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "semver": "^7.6.3"
   }
 }
