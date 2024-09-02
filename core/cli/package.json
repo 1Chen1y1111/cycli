@@ -22,5 +22,8 @@
   "gitHead": "b3cf2dc558baee4b030c98b38eaea674e2394387",
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@cycli/log": "file:../../utils/log"
   }
 }

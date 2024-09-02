@@ -1,0 +1,32 @@
+{
+  "name": "@cycli/log",
+  "version": "1.0.1",
+  "description": "cycli log",
+  "author": "chenying <fun20001016@163.com>",
+  "homepage": "https://github.com/1Chen1y1111/cycli#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Chen1y1111/cycli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@cycli/log.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/1Chen1y1111/cycli/issues"
+  },
+  "dependencies": {
+    "npmlog": "^7.0.1"
+  }
+}
