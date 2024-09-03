@@ -12,9 +12,18 @@ function core() {
   try {
     checkPkgVersion();
     checkNodeVersion();
+    checkRoot();
   } catch (e) {
     log.error(e.message);
   }
+}
+
+/**
+ * 检查root账户
+ */
+function checkRoot() {
+  const rootCheck = require("root-check");
+  rootCheck();
 }
 
 /**
