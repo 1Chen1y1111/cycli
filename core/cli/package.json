@@ -28,7 +28,9 @@
   },
   "dependencies": {
     "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
     "import-local": "^3.2.0",
+    "minimist": "^1.2.8",
     "npmlog": "4.1.0",
     "path-exists": "^4.0.0",
     "root-check": "^1.0.0",
