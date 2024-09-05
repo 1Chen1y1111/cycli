@@ -16,7 +16,7 @@ const pkg = require("../package.json");
 const constant = require("./const");
 const dotenv = require("dotenv");
 
-function core() {
+async function core() {
   try {
     checkPkgVersion();
     checkNodeVersion();
@@ -24,8 +24,26 @@ function core() {
     checkUserHome();
     checkArgs();
     checkEnv();
+    checkGlobalUpdate();
   } catch (e) {
     log.error(e.message);
+  }
+}
+
+/**
+ * 检查是否需要更新
+ */
+async function checkGlobalUpdate() {
+  const currentVersion = pkg.version;
+  const npmName = pkg.name;
+  const { getNpmSemverVersion } = require("@cycli/get-npm-info");
+  const lastVersion = await getNpmSemverVersion(currentVersion, npmName);
+  if (lastVersion && semver.gt(lastVersion, currentVersion)) {
+    log.warn(
+      colors.yellow(
+        `请手动更新${npmName},当前版本${currentVersion},最新版本${lastVersion}`
+      )
+    );
   }
 }
 
